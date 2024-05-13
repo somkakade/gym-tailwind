@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .primary-btn{
+        @apply inline-block rounded-md bg-primary hover:bg-primary/70 duration-200 py-2 px-6 text-white uppercase;
+    }
+    .outline-btn{
+        @apply inline-block rounded-md border-2 border-primary py-2 px-3 text-primary hover:bg-primary/70 duration-200 hover:text-black
+    }
+}
+.testimonials__wrapper .slick-slide>div{
+    margin: 0 10px;
+}
+.testimonials__wrapper .slick-prev:before, .slick-next:before {
+    color: orange;
+}   
+.testimonials__wrapper .slick-next:before {
+    color: orange;
+}
